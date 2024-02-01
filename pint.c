@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * f_ptop - function that prints the top
- * @head: head of stack
- * @counter: line_counter
- * Return: nothng
+ * f_pint - prints the top
+ * @head: stack head
+ * @counter: line_number
+ * Return: no return
 */
-void f_ptop(stack_t **head, unsigned int counter)
+void f_pint(stack_t **head, unsigned int counter)
 {
 	if (*head == NULL)
 	{
