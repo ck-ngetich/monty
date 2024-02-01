@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
-  *f_rbot- rotates the stack to the bottom
+  *f_rotr- rotates the stack to the bottom
   *@head: head of stack
   *@counter: line_counter
   *Return: nothing
  */
-void f_rbot(stack_t **head, __attribute__((unused)) unsigned int counter)
+void f_rotr(stack_t **head, __attribute__((unused)) unsigned int counter)
 {
 	stack_t *file;
 
